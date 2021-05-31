@@ -2,11 +2,7 @@
 # BookCatalog
 
 ## Description
-Sample .NET Core REST API application implemented with basic Domain Driven Design.
-
-## Architecture: [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-
-![projects_dependencies](docs/clean_architecture.jpg)
+BookCatalog is .NET Core REST API application implemented with basic Domain Driven Design.
 
 ## Technologies implemented:
 
@@ -18,7 +14,7 @@ Sample .NET Core REST API application implemented with basic Domain Driven Desig
 - xunit Unit Tests
 - Serilog
 
-## Architecture:
+## Architecture: [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 - Full architecture with Responsibility Separation Concerns, SOLID and Clean Code
 - Domain Driven Design 
