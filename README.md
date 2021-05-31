@@ -4,7 +4,7 @@
 ## Description
 Sample .NET Core REST API application implemented with basic Domain Driven Design.
 
-## Architecture [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+## Architecture: [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ![projects_dependencies](docs/clean_architecture.jpg)
 
@@ -24,6 +24,11 @@ Sample .NET Core REST API application implemented with basic Domain Driven Desig
 - Domain Driven Design 
 - Repository (and Generic Repository) Backend: Json
 
+![projects_dependencies](docs/clean_architecture.jpg)
+
+![projects_dependencies](docs/GenericRepo.png)
+
+![projects_dependencies](docs/Layers.png)
 
 ## How start
 
