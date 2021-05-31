@@ -1,6 +1,5 @@
 using BookCatalog.Domain.Entities;
 using BookCatalog.Infra.Persistence.Json.Repositories;
-using System;
 using System.Linq;
 using Xunit;
 
@@ -27,8 +26,7 @@ namespace BookCatalog.Tests
 
             Assert.True(bookRepo.AddAsync(book1).GetAwaiter().GetResult());
 
-
-            //Assert.True(true);
+          
         }
 
         [Fact]
@@ -37,19 +35,10 @@ namespace BookCatalog.Tests
 
             var bookRepo = new JSonBookRepository();
 
-            var book1 = new Book()
-            {
-                title="Eloquent JavaScript, Second Edition",
-                author="Marijn Haverbeke",
-                isbn="9781593275846",
-                publishedDate="2014-12-14",
-                id="1"
-            };
-
             Assert.Equal("1",bookRepo.GetById("1").GetAwaiter().GetResult().id);
 
 
-            //Assert.True(true);
+            
         }
 
         [Fact]
@@ -58,19 +47,11 @@ namespace BookCatalog.Tests
 
             var bookRepo = new JSonBookRepository();
 
-            var book1 = new Book()
-            {
-                title = "Eloquent JavaScript, Second Edition",
-                author = "Marijn Haverbeke",
-                isbn = "9781593275846",
-                publishedDate = "2014-12-14",
-                id = "1"
-            };
 
             Assert.NotEqual(0, bookRepo.GetAll().GetAwaiter().GetResult().Count());
 
 
-            //Assert.True(true);
+          
         }
     }
 }
