@@ -1,21 +1,10 @@
 
 # BookCatalog
 
-What is the Book Catalog Project?
-=====================
-The Book Catalog Project is a open-source project written in .NET Core
+## Description
+Sample .NET Core REST API application implemented with basic Domain Driven Design.
 
-
-## How to use:
-- You will need the latest Visual Studio 2019 and the latest .NET Core SDK.
-- ***Please check if you have installed the same runtime version (SDK) used in project***
-- The latest SDK and tools can be downloaded from https://dot.net/core.
-- Also, you need to have RabbitMQ available
-
-Also you can run the this Project in Visual Studio Code (Windows, Linux or MacOS).
-
-To know more about how to setup your enviroment visit the [Microsoft .NET Download Guide](https://www.microsoft.com/net/download)
-==RabbitMQ
+## Architecture [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ![projects_dependencies](docs/clean_architecture.jpg)
 
@@ -26,13 +15,23 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - AutoMapper
 - Swagger (for API documentation)
 - Rabbit MQ
-- Unit Tests
+- xunit Unit Tests
+- Serilog
 
 ## Architecture:
 
 - Full architecture with Responsibility Separation Concerns, SOLID and Clean Code
 - Domain Driven Design 
-- Repository (and Generic Repository)
+- Repository (and Generic Repository) Backend: Json
+
+
+## How start
+
+1. Clone this repository
+2. Restore packages in NuGet 
+3. Build project
+4. Run project 
+
 
 ## About:
 The Book Catalog Project was developed by [Seetha R Chimakurthi], seetha.chimakurthi@gmail.com.
