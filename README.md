@@ -17,9 +17,11 @@ Also you can run the this Project in Visual Studio Code (Windows, Linux or MacOS
 To know more about how to setup your enviroment visit the [Microsoft .NET Download Guide](https://www.microsoft.com/net/download)
 ==RabbitMQ
 
+![projects_dependencies](docs/clean_architecture.jpg)
+
 ## Technologies implemented:
 
-- .NET Core 5.0)
+- .NET Core 5.0
 - .NET Core Native Dependency Injection
 - AutoMapper
 - Swagger (for API documentation)
@@ -29,7 +31,7 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 ## Architecture:
 
 - Full architecture with Responsibility Separation Concerns, SOLID and Clean Code
-- Domain Driven Design (Layers and Domain Model Pattern)
+- Domain Driven Design 
 - Repository (and Generic Repository)
 
 ## About:
